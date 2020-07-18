@@ -1,0 +1,11 @@
+{
+    "cmds":[
+        { "service": "SERVICE-1", "cmdtype":0 , "cmd":"CMDA" , "cmdParam": "PARAM-1","depcmd" :"", "depcmdparam":""},
+        { "service": "SERVICE-1", "cmdtype":0 , "cmd":"CMDB" , "cmdParam": "PARAM-1","depcmd" :"", "depcmdparam":""},
+        { "service": "SERVICE-1", "cmdtype":0 , "cmd":"CMDC" , "cmdParam": "PARAM-1","depcmd" :"", "depcmdparam":""},
+        { "service": "SERVICE-1", "cmdtype":1 , "cmd":"CMDA" , "cmdParam": "PARAM-1","depcmd" :"CMDB", "depcmdparam":"PARAM-2"},
+        { "service": "SERVICE-1", "cmdtype":1 , "cmd":"CMDB" , "cmdParam": "PARAM-1","depcmd" :"CMDC", "depcmdparam":"PARAM-2"},
+        { "service": "SERVICE-1", "cmdtype":1 , "cmd":"CMDC" , "cmdParam": "PARAM-1","depcmd" :"CMDA", "depcmdparam":"PARAM-2"},
+        { "service": "SERVICE-1", "cmdtype":1 , "cmd":"CMDA" , "cmdParam": "PARAM-1","depcmd" :"CMDC", "depcmdparam":"PARAM-2"}
+    ]
+}
